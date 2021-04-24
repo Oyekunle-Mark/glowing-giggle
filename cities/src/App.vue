@@ -52,7 +52,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style>
 body {
   width: 100vw;
   height: 100vh;
@@ -79,13 +79,14 @@ h1 {
   border: 1px solid #ddd;
   padding: 20px 20px;
   margin: 10px;
-  h2 {
-    margin: 0;
-    text-align: center;
-  }
-  img {
-    margin: 10px;
-    align-self: center;
-  }
+}
+
+.place h2 {
+  margin: 0;
+  text-align: center;
+}
+.place img {
+  margin: 10px;
+  align-self: center;
 }
 </style>
