@@ -5,7 +5,12 @@
 </template>
 
 <script>
+import AppChild from "@/components/AppChild.vue";
+
 export default {
+  components: {
+    AppChild,
+  },
   data() {
     return {
       manifest: [
